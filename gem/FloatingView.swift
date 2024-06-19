@@ -3,7 +3,7 @@ import AppKit
 import GoogleGenerativeAI
 
 struct FloatingView: View {
-    let model = GenerativeModel(name: "gemini-1.5-flash-latest", apiKey: APIKey.default).startChat()
+    let model: Chat
     @Binding var text: String
     @Binding var resText: String
 
