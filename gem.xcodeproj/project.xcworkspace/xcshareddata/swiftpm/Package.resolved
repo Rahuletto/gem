@@ -1,0 +1,60 @@
+{
+  "originHash" : "dc07cbba056a6353e0e1e9d94763fec20dcc328ad2ae5169c1c06ffddb2a8e2d",
+  "pins" : [
+    {
+      "identity" : "dsfappearancemanager",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/dagronf/DSFAppearanceManager",
+      "state" : {
+        "revision" : "8f3f97208746f1ad4d3963754b8534f2da07dcaf",
+        "version" : "3.4.2"
+      }
+    },
+    {
+      "identity" : "dsfquickactionbar?tab=readme-ov-file",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/dagronf/DSFQuickActionBar?tab=readme-ov-file",
+      "state" : {
+        "revision" : "b1c623f6c5c4e88a8088d12332863c286e4aa486",
+        "version" : "6.1.1"
+      }
+    },
+    {
+      "identity" : "generative-ai-swift",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/google/generative-ai-swift",
+      "state" : {
+        "revision" : "54784005b57c2235a7669e0c12e8dafa68f0ca5f",
+        "version" : "0.5.4"
+      }
+    },
+    {
+      "identity" : "keyboardshortcuts",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/sindresorhus/KeyboardShortcuts",
+      "state" : {
+        "revision" : "2e5f15581fefb821d4b366e57d817be8bf12aa58",
+        "version" : "2.0.1"
+      }
+    },
+    {
+      "identity" : "networkimage",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/gonzalezreal/NetworkImage",
+      "state" : {
+        "revision" : "7aff8d1b31148d32c5933d75557d42f6323ee3d1",
+        "version" : "6.0.0"
+      }
+    },
+    {
+      "identity" : "swift-markdown-ui",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/gonzalezreal/swift-markdown-ui",
+      "state" : {
+        "revision" : "ae799d015a5374708f7b4c85f3294c05f2a564e2",
+        "version" : "2.3.0"
+      }
+    }
+  ],
+  "version" : 3
+}

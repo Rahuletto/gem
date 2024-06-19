@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		12A408BF2C19B82100A4CC6F /* FloatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12A408BE2C19B82100A4CC6F /* FloatingView.swift */; };
+		12A408C22C19D5D600A4CC6F /* KeyboardShortcuts in Frameworks */ = {isa = PBXBuildFile; productRef = 12A408C12C19D5D600A4CC6F /* KeyboardShortcuts */; };
+		12A408C42C19D67000A4CC6F /* SettingScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12A408C32C19D67000A4CC6F /* SettingScreen.swift */; };
 		12B47ACD2C0D7C08006CE527 /* gemApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12B47ACC2C0D7C08006CE527 /* gemApp.swift */; };
 		12B47ACF2C0D7C08006CE527 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12B47ACE2C0D7C08006CE527 /* ContentView.swift */; };
 		12B47AD12C0D7C0A006CE527 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 12B47AD02C0D7C0A006CE527 /* Assets.xcassets */; };
@@ -14,6 +17,14 @@
 		12B47ADF2C0D7C0A006CE527 /* gemTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12B47ADE2C0D7C0A006CE527 /* gemTests.swift */; };
 		12B47AE92C0D7C0A006CE527 /* gemUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12B47AE82C0D7C0A006CE527 /* gemUITests.swift */; };
 		12B47AEB2C0D7C0A006CE527 /* gemUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12B47AEA2C0D7C0A006CE527 /* gemUITestsLaunchTests.swift */; };
+		12B47AF92C0D7CD8006CE527 /* DSFQuickActionBar in Frameworks */ = {isa = PBXBuildFile; productRef = 12B47AF82C0D7CD8006CE527 /* DSFQuickActionBar */; };
+		12B47B002C0DB682006CE527 /* InputField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12B47AFF2C0DB682006CE527 /* InputField.swift */; };
+		12B47B022C0DB6A7006CE527 /* BlurBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12B47B012C0DB6A7006CE527 /* BlurBackground.swift */; };
+		12B47B042C0DB6D1006CE527 /* FloatingPanel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12B47B032C0DB6D1006CE527 /* FloatingPanel.swift */; };
+		12B47B072C0DBE17006CE527 /* GoogleGenerativeAI in Frameworks */ = {isa = PBXBuildFile; productRef = 12B47B062C0DBE17006CE527 /* GoogleGenerativeAI */; };
+		12B47B0A2C0DBE8C006CE527 /* AI.plist in Resources */ = {isa = PBXBuildFile; fileRef = 12B47B092C0DBE8C006CE527 /* AI.plist */; };
+		12B47B0D2C0DBEDD006CE527 /* key.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12B47B0C2C0DBEDD006CE527 /* key.swift */; };
+		12B47B102C0DD7FA006CE527 /* MarkdownUI in Frameworks */ = {isa = PBXBuildFile; productRef = 12B47B0F2C0DD7FA006CE527 /* MarkdownUI */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +45,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		12A408BE2C19B82100A4CC6F /* FloatingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloatingView.swift; sourceTree = "<group>"; };
+		12A408C32C19D67000A4CC6F /* SettingScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingScreen.swift; sourceTree = "<group>"; };
 		12B47AC92C0D7C08006CE527 /* gem.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = gem.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		12B47ACC2C0D7C08006CE527 /* gemApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gemApp.swift; sourceTree = "<group>"; };
 		12B47ACE2C0D7C08006CE527 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -45,6 +58,11 @@
 		12B47AE42C0D7C0A006CE527 /* gemUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = gemUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		12B47AE82C0D7C0A006CE527 /* gemUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gemUITests.swift; sourceTree = "<group>"; };
 		12B47AEA2C0D7C0A006CE527 /* gemUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gemUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		12B47AFF2C0DB682006CE527 /* InputField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputField.swift; sourceTree = "<group>"; };
+		12B47B012C0DB6A7006CE527 /* BlurBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlurBackground.swift; sourceTree = "<group>"; };
+		12B47B032C0DB6D1006CE527 /* FloatingPanel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloatingPanel.swift; sourceTree = "<group>"; };
+		12B47B092C0DBE8C006CE527 /* AI.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = AI.plist; sourceTree = "<group>"; };
+		12B47B0C2C0DBEDD006CE527 /* key.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = key.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +70,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				12B47B102C0DD7FA006CE527 /* MarkdownUI in Frameworks */,
+				12A408C22C19D5D600A4CC6F /* KeyboardShortcuts in Frameworks */,
+				12B47AF92C0D7CD8006CE527 /* DSFQuickActionBar in Frameworks */,
+				12B47B072C0DBE17006CE527 /* GoogleGenerativeAI in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -95,11 +117,16 @@
 		12B47ACB2C0D7C08006CE527 /* gem */ = {
 			isa = PBXGroup;
 			children = (
+				12B47B0B2C0DBED3006CE527 /* utils */,
+				12B47AFC2C0DB664006CE527 /* components */,
 				12B47ACC2C0D7C08006CE527 /* gemApp.swift */,
+				12A408C32C19D67000A4CC6F /* SettingScreen.swift */,
+				12A408BE2C19B82100A4CC6F /* FloatingView.swift */,
 				12B47ACE2C0D7C08006CE527 /* ContentView.swift */,
 				12B47AD02C0D7C0A006CE527 /* Assets.xcassets */,
 				12B47AD52C0D7C0A006CE527 /* gem.entitlements */,
 				12B47AD22C0D7C0A006CE527 /* Preview Content */,
+				12B47B092C0DBE8C006CE527 /* AI.plist */,
 			);
 			path = gem;
 			sourceTree = "<group>";
@@ -129,6 +156,24 @@
 			path = gemUITests;
 			sourceTree = "<group>";
 		};
+		12B47AFC2C0DB664006CE527 /* components */ = {
+			isa = PBXGroup;
+			children = (
+				12B47AFF2C0DB682006CE527 /* InputField.swift */,
+				12B47B012C0DB6A7006CE527 /* BlurBackground.swift */,
+				12B47B032C0DB6D1006CE527 /* FloatingPanel.swift */,
+			);
+			path = components;
+			sourceTree = "<group>";
+		};
+		12B47B0B2C0DBED3006CE527 /* utils */ = {
+			isa = PBXGroup;
+			children = (
+				12B47B0C2C0DBEDD006CE527 /* key.swift */,
+			);
+			path = utils;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -145,6 +190,12 @@
 			dependencies = (
 			);
 			name = gem;
+			packageProductDependencies = (
+				12B47AF82C0D7CD8006CE527 /* DSFQuickActionBar */,
+				12B47B062C0DBE17006CE527 /* GoogleGenerativeAI */,
+				12B47B0F2C0DD7FA006CE527 /* MarkdownUI */,
+				12A408C12C19D5D600A4CC6F /* KeyboardShortcuts */,
+			);
 			productName = gem;
 			productReference = 12B47AC92C0D7C08006CE527 /* gem.app */;
 			productType = "com.apple.product-type.application";
@@ -217,6 +268,12 @@
 				Base,
 			);
 			mainGroup = 12B47AC02C0D7C08006CE527;
+			packageReferences = (
+				12B47AF72C0D7CD8006CE527 /* XCRemoteSwiftPackageReference "DSFQuickActionBar" */,
+				12B47B052C0DBE17006CE527 /* XCRemoteSwiftPackageReference "generative-ai-swift" */,
+				12B47B0E2C0DD7FA006CE527 /* XCRemoteSwiftPackageReference "swift-markdown-ui" */,
+				12A408C02C19D5D600A4CC6F /* XCRemoteSwiftPackageReference "KeyboardShortcuts" */,
+			);
 			productRefGroup = 12B47ACA2C0D7C08006CE527 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -234,6 +291,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				12B47AD42C0D7C0A006CE527 /* Preview Assets.xcassets in Resources */,
+				12B47B0A2C0DBE8C006CE527 /* AI.plist in Resources */,
 				12B47AD12C0D7C0A006CE527 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -259,8 +317,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				12B47B022C0DB6A7006CE527 /* BlurBackground.swift in Sources */,
+				12B47B0D2C0DBEDD006CE527 /* key.swift in Sources */,
+				12A408BF2C19B82100A4CC6F /* FloatingView.swift in Sources */,
+				12B47B042C0DB6D1006CE527 /* FloatingPanel.swift in Sources */,
+				12A408C42C19D67000A4CC6F /* SettingScreen.swift in Sources */,
 				12B47ACF2C0D7C08006CE527 /* ContentView.swift in Sources */,
 				12B47ACD2C0D7C08006CE527 /* gemApp.swift in Sources */,
+				12B47B002C0DB682006CE527 /* InputField.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -573,6 +637,64 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		12A408C02C19D5D600A4CC6F /* XCRemoteSwiftPackageReference "KeyboardShortcuts" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/sindresorhus/KeyboardShortcuts";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.1;
+			};
+		};
+		12B47AF72C0D7CD8006CE527 /* XCRemoteSwiftPackageReference "DSFQuickActionBar" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/dagronf/DSFQuickActionBar?tab=readme-ov-file";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.1.1;
+			};
+		};
+		12B47B052C0DBE17006CE527 /* XCRemoteSwiftPackageReference "generative-ai-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/google/generative-ai-swift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.5.4;
+			};
+		};
+		12B47B0E2C0DD7FA006CE527 /* XCRemoteSwiftPackageReference "swift-markdown-ui" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/gonzalezreal/swift-markdown-ui";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.3.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		12A408C12C19D5D600A4CC6F /* KeyboardShortcuts */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 12A408C02C19D5D600A4CC6F /* XCRemoteSwiftPackageReference "KeyboardShortcuts" */;
+			productName = KeyboardShortcuts;
+		};
+		12B47AF82C0D7CD8006CE527 /* DSFQuickActionBar */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 12B47AF72C0D7CD8006CE527 /* XCRemoteSwiftPackageReference "DSFQuickActionBar" */;
+			productName = DSFQuickActionBar;
+		};
+		12B47B062C0DBE17006CE527 /* GoogleGenerativeAI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 12B47B052C0DBE17006CE527 /* XCRemoteSwiftPackageReference "generative-ai-swift" */;
+			productName = GoogleGenerativeAI;
+		};
+		12B47B0F2C0DD7FA006CE527 /* MarkdownUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 12B47B0E2C0DD7FA006CE527 /* XCRemoteSwiftPackageReference "swift-markdown-ui" */;
+			productName = MarkdownUI;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 12B47AC12C0D7C08006CE527 /* Project object */;
 }
